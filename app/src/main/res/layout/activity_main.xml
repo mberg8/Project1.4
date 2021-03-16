@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/imageBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appimg1"
+    android:visibility="visible"
+    tools:context=".MainActivity"
+    tools:visibility="visible">
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:backgroundTint="#A1FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layoutDirection="rtl"/>
+
+    <Button
+        android:id="@+id/buttonToday"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="268dp"
+        android:layout_marginBottom="512dp"
+        android:text="@string/today"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/buttonTomorrow"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="512dp"
+        android:text="@string/tomorrow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/buttonDays"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="512dp"
+        android:text="@string/_10_days"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="188dp"
+        android:layout_height="53dp"
+        android:text="@string/march_16_2021"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.323" />
+
+    <TextView
+        android:id="@+id/textViewTemp"
+        android:layout_width="202dp"
+        android:layout_height="95dp"
+        android:text="@string/_83_f"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.124"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/searchView"
+        app:layout_constraintVertical_bias="0.427" />
+
+    <ImageView
+        android:id="@+id/imageViewSun"
+        android:layout_width="101dp"
+        android:layout_height="110dp"
+        android:contentDescription="@string/imageofsun"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.903"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.391"
+        app:srcCompat="@drawable/appsunicon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

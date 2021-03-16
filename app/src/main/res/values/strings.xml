@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="imagefooternav">imagefooternav</string>
+    <string name="imageheader">ImageHeader</string>
+    <string name="today">TODAY</string>
+    <string name="tomorrow">TOMORROW</string>
+    <string name="_10_days">10 DAYS</string>
+    <string name="march_16_2021">March 16, 2021</string>
+    <string name="_83_f">83 *F</string>
+    <string name="imageofsun">imageofsun</string>
+</resources>
